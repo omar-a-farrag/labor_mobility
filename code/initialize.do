@@ -62,10 +62,10 @@ global use_sample = 0 // 1 = Use 5% Sample for debugging; 0 = Use Full Data
 * --- 2. PATH DEFINITIONS ---
 * Abstracting the root to make sharing with your co-author seamless
 if $user == 1 {
-    global project_root "Z:/research-eme/omar/Gary/mobility_project"
+    global project_root "REPLACE WITH YOUR PATH"
 }
 else if $user == 2 {
-    global project_root "/if/research-eme/omar//Gary/mobility_project"
+    global project_root "REPLACE WITH YOUR PATH"
 }
 
 * --- 3. DIRECTORY HIERARCHY ---
